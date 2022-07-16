@@ -16,7 +16,7 @@ public class float_double {
 		float val2 = 64.5f;
 		float val2a = (float)64.5;  //casting
 		double val3 = 67.5d;        // decimal number default double
-		double val3a = 67.51122222333333333444445;
+		double val3a = 67.5112222233111333333444445;
 		
 		System.out.println(val1);
 		System.out.println(val2);
