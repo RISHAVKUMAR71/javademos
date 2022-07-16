@@ -32,8 +32,6 @@ public class float_double {
 		float floatval1=7f/2f;
 		System.out.println(floatval1);
 
-
-
 	}
 
 }
