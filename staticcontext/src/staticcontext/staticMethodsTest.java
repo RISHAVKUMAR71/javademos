@@ -1,0 +1,15 @@
+package staticcontext;
+
+public class staticMethodsTest {
+	static void method1() {
+		System.out.println("Inside static Method - method1()");
+	}
+	static {
+		System.out.println("Inside static Block");
+	} 
+	public static void main(String[] args) {
+		System.out.println("inside main method");
+		staticMethodsTest.method1();
+	}
+
+}
