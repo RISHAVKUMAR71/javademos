@@ -18,23 +18,23 @@
 //	}
 //}
 
-
+// -------------------------------------------------------------------
 
 //private access modifier
-class pri_access{
-private void display() {
-	System.out.println("using private access modifer");
-	
-}
-
-}
-
-public class accessmodifier{
-	public static void main(String[] args) {
-		System.out.println("private access modifer");
-		pri_access def=new pri_access();
-		
-//	def.display();
+//class pri_access{
+//private void display() {
+//	System.out.println("using private access modifer");
+//	
+//}
+//
+//}
+//
+//public class accessmodifier{
+//	public static void main(String[] args) {
+//		System.out.println("private access modifer");
+//		pri_access def=new pri_access();
+//		
+////	def.display();
 		
 	}
 }
