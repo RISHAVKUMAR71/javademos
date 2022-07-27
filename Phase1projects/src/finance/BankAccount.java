@@ -8,16 +8,12 @@ public class BankAccount {
 	static double interestRate = 7.2;
 	
 	// default constructor
-	public BankAccount(int accountNum, int total) {
-		this.accountNumber = accountNum;
-		this.balanceTotal = total;
+	public BankAccount() {
+//		this.accountNumber = accountNum;
+//		this.balanceTotal = total;
 	}
 	
-	 public BankAccount() {
-		// TODO Auto-generated constructor stub
-	}
-
-	public void printAccount() {
+	 public void printAccount() {
 		System.out.println("Welcome to " + BankAccount.bankName);
 		System.out.println("Current Loan Interest Rate " + BankAccount.interestRate);
 		System.out.println("AccountNumber: " + this.accountNumber);
